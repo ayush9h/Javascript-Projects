@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap");
+body{
+    margin: 0rem;
+    box-sizing: border-box;
+    padding: 0rem;
+    background-color: black;
+}
+html{
+    font-size: 62.5%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:20%;
+}
+#hours{
+    font-size:12rem;
+    color:cyan;
+    text-shadow: 3px 3px 2px rgba(133, 255, 255, 1);
+    font-family: 'Kdam Thmor Pro',sans-serif;
+}
+#minutes{
+    font-size:12rem;
+    color:cyan;
+    text-shadow: 3px 3px 2px rgba(133, 255, 255, 1);
+    font-family: 'Kdam Thmor Pro',sans-serif;
+}
+#seconds{
+    font-size:12rem;
+    color:cyan;
+    text-shadow: 3px 3px 2px rgba(133, 255, 255, 1);
+    font-family: 'Kdam Thmor Pro',sans-serif;
+}
+span{
+    font-size:12rem;
+    color:darkcyan;
+    font-family: 'Kdam Thmor Pro',sans-serif;
+}

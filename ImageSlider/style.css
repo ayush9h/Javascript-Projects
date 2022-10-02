@@ -1,0 +1,56 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.slidecontain{
+    position: relative;
+    width: 100%;
+
+}
+
+.slide img{
+    width: 100%;
+
+}
+
+.arrow{
+    cursor: pointer;
+    position: absolute;
+    top: 45%; font-size: 25px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 8px 19px;
+    border-radius: 50%;
+}
+
+.caption{
+    color: whitesmoke;
+    font-size: 30px;
+    position:absolute;
+    padding: 15px 0px;
+    background-color: rgba(27, 27, 27, 0.288);
+    width: 100%;
+    text-align: center;
+    bottom: 0px;
+
+
+}
+
+#next{
+    right: 9px;
+}
+
+#previous{
+    left: 9px;
+}
+
+#next:hover{
+    background-color: darkgray;
+}
+
+#previous:hover{
+    background-color: darkgray;
+}
+.slide{
+    display: none;
+}

@@ -27,3 +27,8 @@ position: absolute;
   transition: all 0.3s ease;
   border-radius: 0.2rem;
   font-family: "Poppins", sans-serif;
+
+<!---For audio--->
+document.getElementById("icon").addEventListener("click",function(){
+  document.getElementById("myAudio").play();
+});

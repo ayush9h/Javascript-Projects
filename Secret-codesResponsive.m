@@ -32,3 +32,6 @@ position: absolute;
 document.getElementById("icon").addEventListener("click",function(){
   document.getElementById("myAudio").play();
 });
+
+
+import * as THREE from './node_modules/three/build/three.module.js'

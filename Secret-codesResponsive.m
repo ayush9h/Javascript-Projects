@@ -35,3 +35,19 @@ document.getElementById("icon").addEventListener("click",function(){
 
 
 import * as THREE from './node_modules/three/build/three.module.js'
+window.addEventListener('resize',()=>{
+    //update sizes
+    sizes.width = window.innerWidth
+    sizes.height = window.innerHeight
+
+    //update camera
+    camera.aspect = sizes.width / sizes.height;
+    camera.updateProjectionMatrix()
+    renderer.setSize(sizes.width,sizes.height)
+})
+
+const loop = ()=>{
+    renderer.render(scene,camera)
+    window.requestAnimationFrame(loop)
+}
+loop();

@@ -51,3 +51,9 @@ const loop = ()=>{
     window.requestAnimationFrame(loop)
 }
 loop();
+
+
+
+import * as THREE from '../node_modules/three/build/three.module.js'
+import {OrbitControls} from 'https://threejsfundamentals.org/thrxeejs/resources/threejs/r122/examples/jsm/controls/OrbitControls.js';
+c
